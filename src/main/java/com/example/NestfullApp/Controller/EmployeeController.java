@@ -15,5 +15,9 @@ public class EmployeeController {
     public String Login(){
         return "Welcome to my login page";
     }
+    @PostMapping("/view")
+    public String View(){
+        return "welcome to my view page";
+    }
 
 }
